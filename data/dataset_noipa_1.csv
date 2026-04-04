@@ -1,0 +1,52 @@
+Rata,Ente,Descrizione,Tipo_imposta,Imposta,Spesa
+202501,101,Ministero dell'Economia e delle Finanze,Erariali,IRPEF,125430.50
+202501,102,Ministero della Salute,Previdenziali,INPS,98234.75
+202502,103,Ministero dell'Istruzione,Erariali,IRAP,43210.00
+202502,104,Ministero della Difesa,Varie,Addizionali Comunali,12345.60
+202503,105,Ministero della Giustizia,Previdenziali,INAIL,8765.30
+202503,101,Ministero dell'Economia e delle Finanze,Erariali,IRPEF,131200.00
+202504,106,Ministero degli Affari Esteri,Varie,Addizionali Regionali,22100.45
+202504,107,Ministero dell'Interno,Previdenziali,INPS,115600.80
+202505,108,Ministero delle Infrastrutture,Erariali,IRAP,38900.20
+202505,102,Ministero della Salute,Varie,Addizionali Comunali,9870.55
+202506,103,Ministero dell'Istruzione,Previdenziali,INPS,102345.00
+202506,109,Ministero del Lavoro,Erariali,IRPEF,88760.35
+202507,110,Ministero dell'Ambiente,Varie,Addizionali Regionali,17650.90
+202507,104,Ministero della Difesa,Previdenziali,INAIL,11230.40
+202508,105,Ministero della Giustizia,Erariali,IRPEF,76540.25
+202508,106,Ministero degli Affari Esteri,Previdenziali,INPS,54320.70
+202509,111,Ministero della Cultura,Erariali,IRAP,29870.15
+202509,107,Ministero dell'Interno,Varie,Addizionali Comunali,14560.80
+202510,108,Ministero delle Infrastrutture,Previdenziali,INPS,123450.60
+202510,109,Ministero del Lavoro,Erariali,IRPEF,95670.45
+202511,110,Ministero dell'Ambiente,Varie,Addizionali Regionali,-3450.00
+202511,111,Ministero della Cultura,Previdenziali,INAIL,7654.30
+202512,101,Ministero dell'Economia e delle Finanze,Erariali,IRPEF,999999999.00
+202512,102,Ministero della Salute,Erariali,INPS,67890.25
+202601,103,Ministero dell'Istruzione,Previdenziali,INPS,110234.50
+202601,104,Ministero della Difesa,Erariali,IRAP,41200.00
+202602,105,Ministero della Giustizia,Varie,Addizionali Comunali,16780.35
+202602,106,Ministero degli Affari Esteri,Previdenziali,INPS,88900.60
+2025-03,107,Ministero dell'Interno,Erariali,IRPEF,102300.75
+202603,108,Ministero delle Infrastrutture,Varie,Addizionali Regionali,23450.90
+202604,109,Ministero del Lavoro,Previdenziali,INAIL,9870.40
+202604,110,Ministero dell'Ambiente,Erariali,IRPEF,71230.15
+202605,,Ministero della Cultura,Previdenziali,INPS,95430.80
+202605,101,Ministero dell'Economia e delle Finanze,Varie,Addizionali Comunali,18960.55
+202606,102,Ministero della Salute,Erariali,IRAP,35670.20
+202606,103,Ministero dell'Istruzione,Previdenziali,INPS,107890.45
+202607,104,,Varie,Addizionali Regionali,21340.70
+202607,105,Ministero della Giustizia,Erariali,IRPEF,84560.30
+202608,106,Ministero degli Affari Esteri,Previdenziali,INAIL,10230.65
+202608,107,Ministero dell'Interno,Erarali,IRPEF,118900.40
+2025-09,108,Ministero delle Infrastrutture,Previdenziali,INPS,99870.25
+202609,109,Ministero del Lavoro,Erariali,IRAP,44500.10
+202609,110,Ministero dell'Ambiente,Varie,Addizionali Comunali,-1230.50
+202610,111,Ministero della Cultura,Previdenziali,INPS,86540.75
+202610,101,Ministero dell'Economia e delle Finanze,Erariali,IRPEF,999999999.00
+202611,102,Ministero della Salute,Varie,Addizionali Regionali,19870.30
+202611,103,Ministero dell'Istruzione,Previdenziali,INAIL,8760.55
+202612,104,Ministero della Difesa,Erariali,IRPEF,77650.20
+202612,104,Ministero della Difesa,Erariali,IRPEF,77650.20
+202501,102,Ministero della Salute,Previdenziali,INPS,98234.75
+202501,105,Ministero della Giustizia,,IRPEF,-5670.80
