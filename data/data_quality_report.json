@@ -1,0 +1,185 @@
+{
+  "pipeline": "Multi-Agent Data Quality",
+  "dataset": "data/dataset_noipa_1.csv",
+  "timestamp": "2026-04-06T19:30:57.031532",
+  "rows": 51,
+  "columns": 6,
+  "schema_results": {
+    "Rata": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'rata'"
+      ],
+      "status": "FAIL"
+    },
+    "Ente": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 1,
+      "null_pct": 2.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'ente'",
+        "Column has 1 nulls (2.0%)"
+      ],
+      "status": "FAIL"
+    },
+    "Descrizione": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 1,
+      "null_pct": 2.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'descrizione'",
+        "Column has 1 nulls (2.0%)"
+      ],
+      "status": "FAIL"
+    },
+    "Tipo_imposta": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 1,
+      "null_pct": 2.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'tipo_imposta'",
+        "Column has 1 nulls (2.0%)"
+      ],
+      "status": "FAIL"
+    },
+    "Imposta": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'imposta'"
+      ],
+      "status": "FAIL"
+    },
+    "Spesa": {
+      "expected_type": "unknown",
+      "actual_type": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "naming_issues": [
+        "not snake_case"
+      ],
+      "type_issues": [],
+      "value_issues": [],
+      "suggestions": [
+        "rename to 'spesa'"
+      ],
+      "status": "FAIL"
+    }
+  },
+  "completeness_overall": {
+    "overall_completeness_pct": 99.02,
+    "total_cells": 306,
+    "total_missing": 3,
+    "sparse_columns": [],
+    "worst_columns": [
+      {
+        "column": "Ente",
+        "missing": 1,
+        "completeness_pct": 98.04
+      },
+      {
+        "column": "Descrizione",
+        "missing": 1,
+        "completeness_pct": 98.04
+      },
+      {
+        "column": "Tipo_imposta",
+        "missing": 1,
+        "completeness_pct": 98.04
+      }
+    ]
+  },
+  "consistency_format_count": 1,
+  "consistency_cross_column_count": 2,
+  "consistency_duplicates": {
+    "exact_duplicates": {
+      "count": 2,
+      "total_rows": 4,
+      "groups": [
+        {
+          "rows": [
+            1,
+            49
+          ],
+          "values": {
+            "Rata": "202501",
+            "Ente": "102",
+            "Descrizione": "Ministero della Salute",
+            "Tipo_imposta": "Previdenziali",
+            "Imposta": "INPS",
+            "Spesa": "98234.75"
+          }
+        },
+        {
+          "rows": [
+            47,
+            48
+          ],
+          "values": {
+            "Rata": "202612",
+            "Ente": "104",
+            "Descrizione": "Ministero della Difesa",
+            "Tipo_imposta": "Erariali",
+            "Imposta": "IRPEF",
+            "Spesa": "77650.20"
+          }
+        }
+      ]
+    },
+    "near_duplicates": {
+      "count": 1,
+      "pairs": [
+        {
+          "row_a": 22,
+          "row_b": 44,
+          "differing_column": "Rata",
+          "value_a": "202512",
+          "value_b": "202610"
+        }
+      ]
+    }
+  },
+  "reliability_score": 0.0,
+  "gemini_commentary": {
+    "completeness": "Commentary not available.",
+    "consistency": "Commentary not available."
+  },
+  "errors": [
+    "Schema Agent - Gemini error: Error calling model 'gemini-2.0-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "Completeness - Gemini commentary error: Error calling model 'gemini-2.0-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "Consistency - Gemini commentary error: Error calling model 'gemini-2.0-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo"
+  ]
+}
