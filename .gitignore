@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# generated outputs (reproducible, no need to commit)
+data/cleaned_*.csv
+data/fix_log_*.json
+data/data_quality_report_*.json
+data/benchmark.csv
+
+# OS
+.DS_Store
