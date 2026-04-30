@@ -39,7 +39,7 @@ import dq_agents as dq
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="NoiPA Data Quality Agents",
-    page_icon="📊",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -49,8 +49,8 @@ BRAND = {
     "primary":   "#5D2E8C",   # deep purple
     "secondary": "#D14591",   # magenta
     "accent":    "#7F77DD",   # lavender
-    "success":   "#5DCAA5",
-    "warning":   "#F0997B",
+    "success":   "#1FB964",
+    "warning":   "#F5C166",
     "danger":    "#E24B4A",
     "muted":     "#85B7EB",
 }
@@ -85,7 +85,7 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # Sidebar: dataset selection
 # ---------------------------------------------------------------------------
-st.sidebar.title("📊 Data Quality Agents")
+st.sidebar.title(" Data Quality Agents")
 st.sidebar.markdown("**Reply x LUISS — ML 2025/26**")
 st.sidebar.markdown("---")
 
@@ -144,7 +144,7 @@ elif sample_choice:
     dataset_label = sample_choice
 
 if df is None:
-    st.title("📊 NoiPA Data Quality Agents")
+    st.title(" NoiPA Data Quality Agents")
     st.markdown(
         """
         ### Welcome
@@ -196,7 +196,7 @@ score_class = (
     "🔴 Poor"
 )
 
-st.title("📊 NoiPA Data Quality Audit")
+st.title(" NoiPA Data Quality Audit")
 st.caption(f"Dataset: **{dataset_label}** · {df.shape[0]:,} rows × {df.shape[1]} columns")
 
 st.markdown(
@@ -221,12 +221,12 @@ c4.metric("Anomaly (10%)",      f"{state['scores']['anomaly']:.1f}")
 # Tabs
 # ---------------------------------------------------------------------------
 tab_overview, tab_schema, tab_comp, tab_cons, tab_anom, tab_fix = st.tabs([
-    "📈 Overview",
-    "🏷️ Schema",
-    "📋 Completeness",
-    "🔄 Consistency",
-    "⚠️ Anomalies",
-    "🔧 Auto-Fix",
+    " Overview",
+    " Schema",
+    " Completeness",
+    " Consistency",
+    " Anomalies",
+    " Auto-Fix",
 ])
 
 
